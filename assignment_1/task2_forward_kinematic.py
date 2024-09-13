@@ -31,7 +31,7 @@ def part1_show_T_pose(viewer, joint_names, joint_parents, joint_offsets):
                     * One iteration on parents variable is enough to cover all joint chains
                 4. If parent_idx == -1, then there is no parent joint for current joint, 
                    and the global position of current joint is the same as the local position;
-                   else, the current joint global position = the sum of all parent joint offsets
+                   else, the current joint global position = the sum of all parent joint offsets11
         '''
         ########## Code Start ############
 
